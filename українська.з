@@ -1,0 +1,59 @@
+// загальне
+#define вектор          vector
+#define математика      <cmath>
+#define ввпотоки        <iostream>  
+#define використовувати using
+#define простірімен     namespace
+#define стандартний     std
+#define основна         main
+#define вивести         cout
+#define ввести          cin
+#define повернути       return
+#define постійна        const
+#define кр              endl
+// типи даних
+#define ціле            int   
+#define ціла            int 
+#define цілий            int   
+#define цілі            int 
+#define знак            char
+#define рядок           string
+#define логічне         bool
+#define дійсне          float
+#define точне           double
+#define порожнє         void
+#define беззнакове      unsigned
+#define довге           long
+#define коротке         short
+// умови
+#define якщо(вираз)      if(вираз)
+#define інакше           else
+#define а_якщо(вираз)    else if(вираз)
+#define перемикач        switch
+#define варіант          case
+#define за_замовчуванням default
+#define якщо_істина(умова, істинна, хибна)       (умова) ? істинна : хибна;
+// логіка:
+#define і			  	 &&
+#define або				 ||
+#define не          !
+#define істинно    true
+#define хибно      false
+#define вивід(параметр) cout<<параметр;
+//цикли
+#define для        for
+#define цикл(кількість)                 for (int i=0;i<кількість;i++)
+//#define поки(щось, робити)              while(щось){робити}
+#define поки                            while
+#define виконувати                      do
+#define робити(робити, щось)            do{робити}while(щось)
+#define припинити         break;
+#define продовжити       continue;
+//функції
+#define степінь			pow
+//додаткове
+#define вийти           exit
+#define випадковість    rand
+#define насіння         srand
+#define час             time
+#define нема            NULL
